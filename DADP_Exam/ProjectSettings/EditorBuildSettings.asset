@@ -26,4 +26,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/endScreenWin.unity
     guid: 6bd0aa4b182a559429d54b7fc0d3e107
+  - enabled: 1
+    path: Assets/Scenes/KiaraAirportFirstScene.unity
+    guid: 7a5b6fe2d29557a48afdc423efe78a2f
+  - enabled: 1
+    path: Assets/Scenes/BobCarCrash1stScene.unity
+    guid: bbeb374592a9797439a0ba0141b65169
+  - enabled: 1
+    path: Assets/Scenes/BobCarCrash2ndScene.unity
+    guid: d3b77bee6c76eaa488c9c647857960bb
+  - enabled: 1
+    path: Assets/Scenes/KiaraAirport2ndScene.unity
+    guid: afdf4cd45efec914a87f07e56837d3d8
   m_configObjects: {}
