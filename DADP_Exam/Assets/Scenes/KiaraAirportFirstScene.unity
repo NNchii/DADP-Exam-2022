@@ -249,7 +249,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clickEnabled: 1
-  hoverCursor: {fileID: 0}
+  hoverCursor: {fileID: 2800000, guid: ebdd84b2b3aadb44e9c34f22c966841b, type: 3}
   useEventSystem: 0
 --- !u!61 &1353835919
 BoxCollider2D:

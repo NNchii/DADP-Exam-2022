@@ -596,7 +596,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clickEnabled: 1
-  hoverCursor: {fileID: 0}
+  hoverCursor: {fileID: 2800000, guid: 99163401cd69a2b429002f0c4d37acee, type: 3}
   useEventSystem: 0
 --- !u!61 &313781836
 BoxCollider2D:
@@ -910,7 +910,7 @@ GameObject:
   - component: {fileID: 1546170893}
   - component: {fileID: 1546170892}
   m_Layer: 0
-  m_Name: 5c194c93743ba4ee87d36af715aa5d53b29724a1_2_563x500
+  m_Name: background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -956,7 +956,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 970589e8355c59442997d920e2b62a28, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 15d75c3a914ea5041a3df0da7f9bf3fe, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -975,8 +975,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1546170891}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.2, y: 2.07, z: 1}
+  m_LocalPosition: {x: -0.0256, y: -0.0256, z: 0}
+  m_LocalScale: {x: 1.8537432, y: 1.8524477, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -1013,7 +1013,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clickEnabled: 1
-  hoverCursor: {fileID: 0}
+  hoverCursor: {fileID: 2800000, guid: 99163401cd69a2b429002f0c4d37acee, type: 3}
   useEventSystem: 0
 --- !u!61 &1690216784
 BoxCollider2D:
@@ -1039,7 +1039,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 10.58, y: 15.08}
+  m_Size: {x: 13.65, y: 15.08}
   m_EdgeRadius: 0
 --- !u!212 &1690216785
 SpriteRenderer:
@@ -1081,7 +1081,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 273197a9526194c4caf0fe1fb82e0ba1, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1089,7 +1089,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1690216786
@@ -1100,8 +1100,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1690216782}
   m_LocalRotation: {x: 0, y: 0.49242353, z: 0, w: 0.8703557}
-  m_LocalPosition: {x: -7.9, y: -0.85, z: -1.4}
-  m_LocalScale: {x: 0.2, y: 0.4, z: 1}
+  m_LocalPosition: {x: -8.46, y: -0.87, z: -1.4}
+  m_LocalScale: {x: -0.2, y: 0.32, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5

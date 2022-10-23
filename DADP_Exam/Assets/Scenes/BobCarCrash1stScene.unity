@@ -143,6 +143,7 @@ GameObject:
   - component: {fileID: 543477997}
   - component: {fileID: 543477996}
   - component: {fileID: 543477995}
+  - component: {fileID: 543477999}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -197,6 +198,7 @@ MonoBehaviour:
   - {fileID: 543477997}
   - {fileID: 543477996}
   - {fileID: 543477995}
+  - {fileID: 543477999}
   suppressAllAutoSelections: 0
 --- !u!114 &543477989
 MonoBehaviour:
@@ -224,8 +226,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 543477988}
-  selectedCommands:
-  - {fileID: 543477995}
+  selectedCommands: []
   variables:
   - {fileID: 543477993}
   - {fileID: 543477992}
@@ -641,6 +642,25 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &543477999
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 543477986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 7
+  indentLevel: 1
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: BobCarCrash2ndScene
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
 --- !u!1 &1009002622
 GameObject:
   m_ObjectHideFlags: 0
@@ -673,7 +693,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clickEnabled: 1
-  hoverCursor: {fileID: 0}
+  hoverCursor: {fileID: 2800000, guid: ebdd84b2b3aadb44e9c34f22c966841b, type: 3}
   useEventSystem: 0
 --- !u!61 &1009002624
 BoxCollider2D:

@@ -194,6 +194,8 @@ GameObject:
   - component: {fileID: 90197304}
   - component: {fileID: 90197303}
   - component: {fileID: 90197302}
+  - component: {fileID: 90197310}
+  - component: {fileID: 90197311}
   m_Layer: 0
   m_Name: FlowchartKitchen
   m_TagString: Untagged
@@ -259,9 +261,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 373.3825
-    y: 217.73158
-    width: 137.2
+    x: 371.02957
+    y: 220.08452
+    width: 126.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -283,6 +285,7 @@ MonoBehaviour:
   - {fileID: 90197258}
   - {fileID: 90197270}
   - {fileID: 90197280}
+  - {fileID: 90197310}
   - {fileID: 90197292}
   - {fileID: 90197290}
   - {fileID: 90197295}
@@ -290,6 +293,7 @@ MonoBehaviour:
   - {fileID: 90197298}
   - {fileID: 90197285}
   - {fileID: 90197284}
+  - {fileID: 90197311}
   - {fileID: 90197273}
   - {fileID: 90197247}
   suppressAllAutoSelections: 0
@@ -324,7 +328,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 157.14346
     y: 35.319595
-    width: 112.4
+    width: 110.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -350,11 +354,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -156.96057, y: -64.228195}
+  scrollPos: {x: 1545.7924, y: 150.73238}
   variablesScrollPos: {x: 0, y: 40}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 1
+  zoom: 0.25
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -362,8 +366,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 90197296}
-  selectedCommands: []
+  - {fileID: 90197249}
+  selectedCommands:
+  - {fileID: 90197311}
   variables:
   - {fileID: 90197259}
   - {fileID: 90197272}
@@ -706,7 +711,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 332.81415
     y: 127.24725
-    width: 102.8
+    width: 98
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -984,7 +989,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 313.836
     y: 23.792286
-    width: 118.8
+    width: 117.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2011,9 +2016,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 20
   indentLevel: 1
-  storyText: Can't seem to ID the victim, the boyfriend didn't use his gun which
-    is odd, and he left without his passport, did he book the ticket?... Look through
-    the kitchen, whilst I call headquarters to find the boyfriend
+  storyText: 'Can''t seem to ID the victim, the boyfriend didn''t use his gun which
+    is odd, and he left without his passport, did he book the ticket?... '
   description: 
   character: {fileID: 2038713392}
   portrait: {fileID: 0}
@@ -2097,8 +2101,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 52
   indentLevel: 1
-  storyText: Hmmmm... Becky? We didn't get the victims name. There must be someone
-    who knows the victims name. Go find out what the victim's name is!
+  storyText: 'Hmmmm... Becky? We didn''t get the victims name. There must be someone
+    who knows the her name. '
   description: 
   character: {fileID: 2038713392}
   portrait: {fileID: 0}
@@ -2917,7 +2921,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 600.463
     y: 233.44443
-    width: 111.6
+    width: 107.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2946,7 +2950,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 604.9606
     y: 172.52818
-    width: 119.6
+    width: 117.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3445,6 +3449,60 @@ MonoBehaviour:
   scope: 0
   key: chasedKiara1st
   value: 0
+--- !u!114 &90197310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 90197246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 70
+  indentLevel: 1
+  storyText: Look through the kitchen, whilst I call headquarters to find the boyfriend
+  description: 
+  character: {fileID: 2038713392}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &90197311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 90197246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 71
+  indentLevel: 1
+  storyText: Go find out what the victim's name is!
+  description: 
+  character: {fileID: 2038713392}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &365355107
 GameObject:
   m_ObjectHideFlags: 0
@@ -3560,7 +3618,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clickEnabled: 1
-  hoverCursor: {fileID: 0}
+  hoverCursor: {fileID: 2800000, guid: 99163401cd69a2b429002f0c4d37acee, type: 3}
   useEventSystem: 0
 --- !u!61 &469848121
 BoxCollider2D:
@@ -3685,7 +3743,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clickEnabled: 1
-  hoverCursor: {fileID: 0}
+  hoverCursor: {fileID: 2800000, guid: 99163401cd69a2b429002f0c4d37acee, type: 3}
   useEventSystem: 0
 --- !u!61 &770716677
 BoxCollider2D:
@@ -3986,7 +4044,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clickEnabled: 1
-  hoverCursor: {fileID: 0}
+  hoverCursor: {fileID: 2800000, guid: ebdd84b2b3aadb44e9c34f22c966841b, type: 3}
   useEventSystem: 0
 --- !u!61 &1363121070
 BoxCollider2D:
