@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{71670F9B-FD79-B881-DE82-6CFB77232CEA}</ProjectGuid>
+    <ProjectGuid>{C511508F-7D99-FA0E-CC21-49A49630C79B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Fungus.LineEndingsEditor</AssemblyName>
@@ -53,7 +53,7 @@
     <UnityVersion>2020.3.30f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Fungus\Thirdparty\LineEndings\Editor\LineEndingsEditMenu.cs" />
@@ -662,27 +662,23 @@
     <Reference Include="System.Xml.XPath.XDocument">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.30f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TestRunner">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Fungus.csproj">
-      <Project>{55E97631-27B4-5169-4B85-6BD642651F93}</Project>
+      <Project>{402501B8-C21F-950D-41B8-8170536E67BB}</Project>
       <Name>Fungus</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{0CDF4BE2-179C-FEEC-C8EE-5DE52462C9F7}</Project>
-      <Name>UnityEditor.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{E10376C0-8061-7B9A-6F43-AA6B22BCB904}</Project>
-      <Name>UnityEngine.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{E2E3B9B9-EAE7-EF82-5F5E-8F425538C942}</Project>
-      <Name>UnityEngine.TestRunner</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{7531B29A-A30B-73BA-0816-0FB05232593D}</Project>
-      <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
