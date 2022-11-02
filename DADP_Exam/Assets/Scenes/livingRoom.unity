@@ -464,7 +464,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   scrollPos: {x: 572.7759, y: 115.99247}
-  variablesScrollPos: {x: 0, y: 100}
+  variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
   zoom: 0.7299998
@@ -8007,14 +8007,14 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 7.88, y: 2.92}
+    oldSize: {x: 2.72, y: 0.55}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 7.38, y: 2.36}
+  m_Size: {x: 2.07, y: 1.17}
   m_EdgeRadius: 0
 --- !u!212 &963741209
 SpriteRenderer:
@@ -8056,7 +8056,7 @@ SpriteRenderer:
   m_SortingLayerID: 1310331677
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 285eb52c8c224fa40896d41fa099b69c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: afa27cf6d0c439241b0fe16d4235d168, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8075,8 +8075,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963741206}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.5594687, y: -4.0643215, z: 7.0308256}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalPosition: {x: -3.41, y: -4.36, z: 7.0308256}
+  m_LocalScale: {x: 2.5, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 951124367}
   m_RootOrder: 4
@@ -8520,7 +8520,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 32f0042bd56f289468d81064a673e3f4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 94c66f1be73ee7a448f182413fad904b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8540,7 +8540,7 @@ Transform:
   m_GameObject: {fileID: 1921475467}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5, y: 0.62, z: -1.21}
-  m_LocalScale: {x: 0.18815278, y: 0.18815278, z: 0.18815278}
+  m_LocalScale: {x: 0.56, y: 0.56, z: 0.56}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
