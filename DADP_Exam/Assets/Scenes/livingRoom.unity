@@ -463,11 +463,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 572.7759, y: 115.99247}
-  variablesScrollPos: {x: 0, y: 100}
+  scrollPos: {x: 543.8474, y: 80.59885}
+  variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.7299998
+  zoom: 0.8800001
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -476,8 +476,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 82876058}
-  selectedCommands:
-  - {fileID: 82876161}
+  selectedCommands: []
   variables:
   - {fileID: 82876070}
   - {fileID: 82876081}
@@ -548,7 +547,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 188.22873
     y: 13.183412
-    width: 162.87674
+    width: 167.04544
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -608,7 +607,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -16.029177
     y: 46.549286
-    width: 122.32879
+    width: 124.99999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -688,7 +687,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 190.13007
     y: -36.236656
-    width: 168.3562
+    width: 172.72726
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -800,7 +799,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 196.95682
     y: 65.03231
-    width: 133.28769
+    width: 136.36362
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -890,7 +889,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 205.29855
     y: 135.65251
-    width: 127.80824
+    width: 130.68181
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1436,7 +1435,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 209.84116
     y: 248.96353
-    width: 101.50687
+    width: 103.40909
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1488,7 +1487,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 195.8338
     y: 191.61108
-    width: 121.232895
+    width: 123.863625
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
