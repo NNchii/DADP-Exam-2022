@@ -408,8 +408,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 65.647064
-    y: 71.17647
-    width: 113.5294
+    y: 72.352936
+    width: 110.235275
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -457,8 +457,11 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1366227188}
+  selectedCommands:
+  - {fileID: 1366227205}
+  - {fileID: 1366227204}
   variables:
   - {fileID: 1366227195}
   - {fileID: 1366227194}

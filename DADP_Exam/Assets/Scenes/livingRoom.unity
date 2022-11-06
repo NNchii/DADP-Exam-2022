@@ -547,7 +547,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 188.22873
     y: 13.183412
-    width: 167.04544
+    width: 167.2727
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -607,7 +607,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -16.029177
     y: 46.549286
-    width: 124.99999
+    width: 124.54545
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -687,7 +687,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 190.13007
     y: -36.236656
-    width: 172.72726
+    width: 171.81818
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -799,7 +799,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 196.95682
     y: 65.03231
-    width: 136.36362
+    width: 137.2727
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -889,7 +889,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 205.29855
     y: 135.65251
-    width: 130.68181
+    width: 132.72726
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1435,7 +1435,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 209.84116
     y: 248.96353
-    width: 103.40909
+    width: 105.45454
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1487,7 +1487,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 195.8338
     y: 191.61108
-    width: 123.863625
+    width: 125.45454
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8002,18 +8002,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.34}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 7.88, y: 2.92}
+    oldSize: {x: 2.72, y: 0.55}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 7.38, y: 2.36}
+  m_Size: {x: 2, y: 0.7}
   m_EdgeRadius: 0
 --- !u!212 &963741209
 SpriteRenderer:
@@ -8054,8 +8054,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1310331677
   m_SortingLayer: 1
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 285eb52c8c224fa40896d41fa099b69c, type: 3}
+  m_SortingOrder: 22
+  m_Sprite: {fileID: 21300000, guid: afa27cf6d0c439241b0fe16d4235d168, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8074,8 +8074,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963741206}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.5594687, y: -4.0643215, z: 7.0308256}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalPosition: {x: -3.76, y: -4.37, z: 7.0308256}
+  m_LocalScale: {x: 2.2, y: 2.81, z: 1}
   m_Children: []
   m_Father: {fileID: 951124367}
   m_RootOrder: 4
