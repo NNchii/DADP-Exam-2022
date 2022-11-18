@@ -1,7 +1,9 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - ClickSpritescript
     - Inventory
+    - TimerScript
     Fungus.dll:
     - Fungus.Block
     - Fungus.BooleanVariable
@@ -9,6 +11,7 @@ ScriptsOnlyBuild:
     - Fungus.Call
     - Fungus.Character
     - Fungus.Clickable2D
+    - Fungus.CommandCopyBuffer
     - Fungus.CustomTag
     - Fungus.DialogInput
     - Fungus.Draggable2D
@@ -66,6 +69,8 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
+    - UnityEditor.Tilemaps.GridPaletteBrushes
+    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
@@ -81,8 +86,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -130,6 +137,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
@@ -175,25 +186,97 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 20
       Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
     - Class: 28
       Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 70
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 1478}
+    - Class: 114
+      Script: {instanceID: 1480}
+    - Class: 114
+      Script: {instanceID: 1482}
+    - Class: 114
+      Script: {instanceID: 1842}
+    - Class: 114
+      Script: {instanceID: 2426}
+    - Class: 114
       Script: {instanceID: 2560}
+    - Class: 114
+      Script: {instanceID: 2672}
     - Class: 114
       Script: {instanceID: 2786}
     - Class: 114
+      Script: {instanceID: 2838}
+    - Class: 114
+      Script: {instanceID: 3406}
+    - Class: 114
+      Script: {instanceID: 3468}
+    - Class: 114
+      Script: {instanceID: 3610}
+    - Class: 114
+      Script: {instanceID: 4712}
+    - Class: 114
       Script: {instanceID: 5144}
     - Class: 114
+      Script: {instanceID: 5184}
+    - Class: 114
+      Script: {instanceID: 5208}
+    - Class: 114
+      Script: {instanceID: 5214}
+    - Class: 114
+      Script: {instanceID: 5346}
+    - Class: 114
+      Script: {instanceID: 5516}
+    - Class: 114
+      Script: {instanceID: 6048}
+    - Class: 114
+      Script: {instanceID: 6206}
+    - Class: 114
+      Script: {instanceID: 6358}
+    - Class: 114
       Script: {instanceID: 6864}
+    - Class: 114
+      Script: {instanceID: 6990}
+    - Class: 114
+      Script: {instanceID: 25978}
+    - Class: 114
+      Script: {instanceID: 28592}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     Assets/Scenes/InterrogationScene.unity:
     - Class: 1
@@ -211,6 +294,10 @@ ScriptsOnlyBuild:
     - Class: 61
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -311,6 +398,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
@@ -399,6 +490,10 @@ ScriptsOnlyBuild:
     - Class: 61
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -3506,6 +3601,18 @@ ScriptsOnlyBuild:
     assemblyName: Fungus.dll
     namespaceName: Fungus
     className: ObjectClicked
+  - hash:
+      serializedVersion: 2
+      Hash: b966de61bd1daea675634a152d23acdc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TimerScript
+  - hash:
+      serializedVersion: 2
+      Hash: 55c10ac66823dab3e9b3c9fb8c9140e2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ClickSpritescript
   platform: 19
   scenePathNames:
   - Assets/Scenes/StartScreen.unity
@@ -3521,4 +3628,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/KiaraAirport2ndScene.unity
   - Assets/Scenes/InterrogationScene.unity
   playerPath: C:/Users/zacha/MyDrive/semester 2/digital art design project/DADP exam/build
-    tests/1/DADP_Assignment1.exe
+    tests/DadpExamFinal/DADP_Assignment1.exe

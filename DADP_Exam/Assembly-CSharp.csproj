@@ -60,6 +60,8 @@
     <Compile Include="Assets\scripts\playerController.cs" />
     <Compile Include="Assets\scripts\MoveToBedroom.cs" />
     <Compile Include="Assets\scripts\Inventory.cs" />
+    <Compile Include="Assets\Woods scene\TimerScript.cs" />
+    <Compile Include="Assets\Woods scene\ClickSpritescript.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
