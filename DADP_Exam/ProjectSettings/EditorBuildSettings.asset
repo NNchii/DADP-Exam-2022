@@ -41,4 +41,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/InterrogationScene.unity
     guid: 13cf0811cd35157479d475282626db54
+  - enabled: 1
+    path: Assets/Scenes/references.unity
+    guid: cd09664809de9e24f9d7209c55abb3fd
   m_configObjects: {}
